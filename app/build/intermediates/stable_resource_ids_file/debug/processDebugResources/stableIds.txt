@@ -1,0 +1,5 @@
+com.example.cst2335lab6:style/Theme.AndroidLabs = 0x7f040000
+com.example.cst2335lab6:string/app_name = 0x7f030000
+com.example.cst2335lab6:layout/activity_main = 0x7f020000
+com.example.cst2335lab6:id/progressBar = 0x7f010001
+com.example.cst2335lab6:id/catImage = 0x7f010000

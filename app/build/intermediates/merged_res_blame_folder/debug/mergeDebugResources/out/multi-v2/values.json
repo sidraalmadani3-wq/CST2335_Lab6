@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.cst2335lab6.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sidra\\Downloads\\CST2335_Lab6\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "43",
+                        "endOffsets": "94"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sidra\\Downloads\\CST2335_Lab6\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "349"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "99",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "432"
+                    }
+                }
+            ]
+        }
+    ]
+}

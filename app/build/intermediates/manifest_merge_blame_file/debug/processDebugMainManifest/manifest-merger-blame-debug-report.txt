@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cst2335lab6"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <uses-feature
+13-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:5:5-90
+14        android:name="android.hardware.touchscreen"
+14-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:5:19-62
+15        android:required="false" />
+15-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:5:63-87
+16    <uses-feature
+16-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:6:5-86
+17        android:name="android.software.leanback"
+17-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:6:19-59
+18        android:required="true" />
+18-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:6:60-83
+19
+20    <application
+20-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:8:5-22:19
+21        android:allowBackup="true"
+21-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:9:9-35
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:label="Cat TV"
+24-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:10:9-31
+25        android:supportsRtl="true"
+25-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AndroidLabs"
+27-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:12:9-49
+28        android:usesCleartextTraffic="false" >
+28-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:13:9-45
+29        <activity
+29-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:14:9-21:20
+30            android:name="com.example.cst2335lab6.MainActivity"
+30-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:15:13-41
+31            android:exported="true" >
+31-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:16:13-36
+32            <intent-filter>
+32-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:17:13-20:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:18:17-69
+33-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+35-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:19:17-86
+35-->C:\Users\sidra\Downloads\CST2335_Lab6\app\src\main\AndroidManifest.xml:19:27-83
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
